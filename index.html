@@ -1,51 +1,72 @@
 <!DOCTYPE html>
-<div align="center">
-	<table>
-		<thead>
-			<tr>
-				<th>Domain</th>
-				<th>Description</th>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+	.markdown-body {
+		box-sizing: border-box;
+		min-width: 200px;
+		max-width: 980px;
+		margin: 0 auto;
+		padding: 45px;
+	}
+
+	@media (max-width: 767px) {
+		.markdown-body {
+			padding: 15px;
+		}
+	}
+</style>
+
+<article class="markdown-body">
+	<div align="center">
+		<table>
+			<thead>
 				<tr>
-					<td><a href="https://archive.hinto.rs">https://archive.hinto.rs</a></td>
-					<td>Cuprate archived releases</td>
+					<th>Domain</th>
+					<th>Description</th>
+					<tr>
+						<td><a href="https://archive.hinto.rs">https://archive.hinto.rs</a></td>
+						<td>Cuprate archived releases</td>
+					</tr>
+					<tr>
+						<td><a href="https://benches.hinto.rs">https://benches.hinto.rs</a></td>
+						<td>Cuprate benchmark data (<a href="https://github.com/Cuprate/benches">https://github.com/Cuprate/benches</a>)</td>
+					</tr>
+					<tr>
+						<td><a href="https://explorer.hinto.rs">https://explorer.hinto.rs</a></td>
+						<td>Monero block explorer (<a href="https://github.com/moneroexamples/onion-monero-blockchain-explorer">https://github.com/moneroexamples/onion-monero-blockchain-explorer</a>)</td>
+					</tr>
+					<tr>
+						<td>http://node.hinto.rs:18080</td>
+						<td><code>monerod</code> (P2P)</td>
+					</tr>
+					<tr>
+						<td>http://node.hinto.rs:18089</td>
+						<td><code>monerod</code> (RPC)</td>
+					</tr>
+					<tr>
+						<td>http://node.hinto.rs:18083</td>
+						<td><code>monerod</code> (ZMQ)</td>
+					</tr>
+					<tr>
+						<td>http://node.hinto.rs:48080</td>
+						<td><code>cuprated</code> (P2P)</td>
+					</tr>
+					<tr>
+						<td>http://lykcas4tus7mkm4bhsgqe4drtd4awi7gja24goscc47xfgzj54yofyqd.onion:18080</td>
+						<td><code>monerod</code> (P2P, Onion)</td>
+					</tr>
+					<tr>
+						<td>http://lykcas4tus7mkm4bhsgqe4drtd4awi7gja24goscc47xfgzj54yofyqd.onion:18089</td>
+						<td><code>monerod</code> (RPC, Onion)</td>
+					</tr>
+					<tr>
+						<td>http://lykcas4tus7mkm4bhsgqe4drtd4awi7gja24goscc47xfgzj54yofyqd.onion:48080</td>
+						<td><code>cuprated</code> (P2P, Onion)</td>
+					</tr>
 				</tr>
-				<tr>
-					<td><a href="https://benches.hinto.rs">https://benches.hinto.rs</a></td>
-					<td>Cuprate benchmark data (<a href="https://github.com/Cuprate/benches">https://github.com/Cuprate/benches</a>)</td>
-				</tr>
-				<tr>
-					<td><a href="https://explorer.hinto.rs">https://explorer.hinto.rs</a></td>
-					<td>Monero block explorer (<a href="https://github.com/moneroexamples/onion-monero-blockchain-explorer">https://github.com/moneroexamples/onion-monero-blockchain-explorer</a>)</td>
-				</tr>
-				<tr>
-					<td>http://node.hinto.rs:18080</td>
-					<td><code>monerod</code> (P2P)</td>
-				</tr>
-				<tr>
-					<td>http://node.hinto.rs:18089</td>
-					<td><code>monerod</code> (RPC)</td>
-				</tr>
-				<tr>
-					<td>http://node.hinto.rs:18083</td>
-					<td><code>monerod</code> (ZMQ)</td>
-				</tr>
-				<tr>
-					<td>http://node.hinto.rs:48080</td>
-					<td><code>cuprated</code> (P2P)</td>
-				</tr>
-				<tr>
-					<td>http://lykcas4tus7mkm4bhsgqe4drtd4awi7gja24goscc47xfgzj54yofyqd.onion:18080</td>
-					<td><code>monerod</code> (P2P, Onion)</td>
-				</tr>
-				<tr>
-					<td>http://lykcas4tus7mkm4bhsgqe4drtd4awi7gja24goscc47xfgzj54yofyqd.onion:18089</td>
-					<td><code>monerod</code> (RPC, Onion)</td>
-				</tr>
-				<tr>
-					<td>http://lykcas4tus7mkm4bhsgqe4drtd4awi7gja24goscc47xfgzj54yofyqd.onion:48080</td>
-					<td><code>cuprated</code> (P2P, Onion)</td>
-				</tr>
-			</tr>
-		</tbody>
-	</table>
-<div>
+			</tbody>
+		</table>
+	<div>
+</article>
